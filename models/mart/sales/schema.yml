@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: dim_carmake
+  - name: dim_carMake
     description: "dimension de marcas de vehiculos. contiene una cable unica para cada marca"
     columns:
       - name: id_CARMAKE
@@ -27,7 +27,7 @@ models:
         tests:
           - not_null
 
-  - name:  fcct_montly_sales
+  - name:  fct_montly_sales
     description: "tabla de hechos que consolida las ventas mensuales agregadas por vendedor y marca de vehiculo, utilizando las claves de dimension"
     columns:
       - name: DDATE
