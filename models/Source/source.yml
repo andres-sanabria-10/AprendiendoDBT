@@ -15,7 +15,7 @@ sources:
           - name: CUSTOMER NAME
             description: "Nombre del cliente que compro el automovil"
             tests:
-              - not not_null
+              - not_null
           - name: CARMAKE
             description: "Nombre de la marca del vehiculo"
           - name: CARMODEL
